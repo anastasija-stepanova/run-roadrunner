@@ -1,7 +1,7 @@
 ARG RR_VERSION
 ARG RR_IMAGE=spiralscout/roadrunner
 ARG PHP_IMAGE_VERSION
-ARG PHP_IMAGE=php:8.0.14-cli-alpine3.15
+ARG PHP_IMAGE=php:8.1.18-cli-alpine
 
 FROM ${RR_IMAGE} as rr
 

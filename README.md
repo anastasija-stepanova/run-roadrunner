@@ -2,4 +2,5 @@
 
 1. ```git clone https://github.com/anastasija-stepanova/run-roadrunner.git```
 2. ```composer install```
-3. ```docker-compose up --build```
+3. create .env
+4. ```docker-compose up --build```
