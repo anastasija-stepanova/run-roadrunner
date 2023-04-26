@@ -1,0 +1,17 @@
+{
+  "name": "test/test",
+  "description": "A local docker environment skeleton for RoadRunner",
+  "keywords": ["roadrunner", "docker"],
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^8.1.14",
+    "nyholm/psr7": "^1.4",
+    "spiral/roadrunner": "2.12.2"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
